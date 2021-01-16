@@ -17,6 +17,9 @@ Request Body
 <h4>Save Address</h4>
 <code> POST http://localhost:8000/api/users/save-address</code>
 <br>
+Request Header
+<code>token</code>
+<br>
 Request Body
 <br>
 <code>
@@ -33,6 +36,9 @@ Request Body
 <h4>Generate Thumbnail</h4>
 <code> POST http://localhost:8000/api/features/create-thumbnail</code>
 <br>
+Request Header
+<code>token</code>
+<br>
 Request Body
 <br>
 <code>
@@ -45,6 +51,10 @@ Request Body
 <h4>Patch Json</h4>
 <code> PATCH http://localhost:8000/api/features/patch-object</code>
 <br>
+Request Header
+<code>token</code>
+<br>
+
 Request Body
 <br>
 <code>
